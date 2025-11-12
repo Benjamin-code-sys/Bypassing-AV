@@ -20,3 +20,11 @@
 5. Then it'll resume the thread using the ResumeThread API function hence executing the shellcode in the APC queue
 
 <img src="https://imgur.com/2H9JVHS.png" height="80%" width="80%" alt="Early-Bird APC injection steps"/>
+
+<h2>Advantages</h2>
+
+▪ Camouflages the execution of our malicious shellcode by hijacking a legitimate process before it hits Entry point  
+▪ The remaining code of the actual legitimate targeted process is abandoned whilst the shellcode runs  
+▪ Bypasses security product hooks  
+▪ The shellcode executes before the process begins, hence avoiding detection by anti-malware hooks   
+▪ Our malware runs with applications icon of the oiginal targeted process  
