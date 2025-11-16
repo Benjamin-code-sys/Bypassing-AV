@@ -1,3 +1,12 @@
+/*
+
+ Benjamin Moss Custom code template
+ Service binary - payload encryption with AES
+ 
+ Author: Benjamin Moss Kipsoi 
+ Email: mossbenjamin254@gmail.com
+
+*/
 #include <windows.h>
 #include <winternl.h>
 #include <stdio.h>
@@ -274,3 +283,4 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	}
 	return 0;
 }
+
