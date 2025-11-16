@@ -4,9 +4,12 @@
 
 ⇒  This Repository includes various ways we can bypass the latest antivirus solutions using custom methods including the following:  
 
-• EarlyBird Technique  
-• APC Injection  
-• DLL Injection  
+• **EarlyBird Technique**  
+• **APC Injection**  
+• **DLL Injection**  
+• **sRDI**  
+• **Map View Code Injection**
+
 
 <h2>Introduction To AV-Bypass</h2>
 
